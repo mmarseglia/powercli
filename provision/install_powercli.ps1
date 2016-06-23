@@ -8,6 +8,3 @@ $exe = "C:\vagrant\provision\VMware-PowerCLI-6.3.0-3737840.exe"
 Start-process -Wait $exe $myargs
 
 Add-PSSnapin -Name VMware.VimAutomation.Core
-
-# install Powershell Script Analyzer
-Install-Module -Name PSScriptAnalyzer -Repository PSGallery -Force
